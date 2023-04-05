@@ -5,7 +5,7 @@
   "author": "",
   "private": true,
   "license": "UNLICENSED",
- "scripts": {
+  "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -25,9 +25,9 @@
     "stop-linux": "killall node",
     "seed": "ts-node -r tsconfig-paths/register database/seed.js"
   },
-  "engines":{
+  "engines": {
     "node": "18.15.0",
-    "npm":"9.6.3"
+    "npm": "9.6.3"
   },
   "dependencies": {
     "@golevelup/nestjs-modules": "^0.6.1",
@@ -41,6 +41,8 @@
     "@nestjs/swagger": "^6.3.0",
     "@nestjs/terminus": "^9.2.2",
     "@ogma/nestjs-module": "^4.2.2",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cookie-session": "^2.0.44",
     "aws-sdk": "^2.1349.0",
     "bcryptjs": "^2.4.3",
     "class-transformer": "^0.5.1",
